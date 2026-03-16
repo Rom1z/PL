@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 import mysql.connector
 
-DB = dict(host="localhost", user="root", password="12543hRGB2001", database="marupov")
+DB = dict(host="localhost", user="root", password="12", database="marupov")
 
 
 def q(sql, p=(), one=False):
